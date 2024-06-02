@@ -114,7 +114,7 @@ namespace PomodoroApp
             UpdateDisplay();
             statusLabel.Text = "Pomodoro " + pomodoroCount.ToString();
             alarmSound.Play();
-            MessageBox.Show("Tomate un descanso campeón");
+            // MessageBox.Show("Tomate un descanso campeón");
         }
 
         private void UpdateDisplay()
